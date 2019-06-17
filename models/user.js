@@ -7,9 +7,7 @@ const userSchema = new mongoose.Schema({
     password: { type: String, required: true, minlength: 8 },
     posts: [
         {
-            postId: { type: mongoose.Schema.ObjectId, ref: 'Post' },
-            content: { type: mongoose.Schema.ObjectId, ref: 'Post' },
-            timestamp: { type: mongoose.Schema.ObjectId, ref: 'Post' }
+            postId: { type: mongoose.Schema.ObjectId, ref: 'Post' }
         }
     ]
 })
