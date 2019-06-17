@@ -1,14 +1,24 @@
 {
   "name": "twitter-clone",
   "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:platypotomus/vue-twitter-clone.git",
+  "author": "Ellie Farrer <elliefarrermusic@gmail.com>",
   "private": true,
   "scripts": {
+    "start": "nodemon",
+    "seed": "node db/seeds",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bluebird": "^3.5.5",
     "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
