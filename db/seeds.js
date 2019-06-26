@@ -18,21 +18,24 @@ const userData = [
         username: 'EllDawg',
         displayName: 'Ellie',
         email: 'ellie@platyp.com',
-        password: 'Pass1234'
+        password: 'Pass1234',
+        passwordConfirmation: 'Pass1234'
     },
     {
         _id: userIds[1],
         username: 'iamgroot',
         displayName: 'Groot',
         email: 'groot@platyp.com',
-        password: 'Pass1234'
+        password: 'Pass1234',
+        passwordConfirmation: 'Pass1234'
     },
     {
         _id: userIds[2],
         username: 'iaminevitable',
         displayName: 'Thanos',
         email: 'thanos@platyp.com',
-        password: 'Pass1234'
+        password: 'Pass1234',
+        passwordConfirmation: 'Pass1234'
     }
 ];
 
