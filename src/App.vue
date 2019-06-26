@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <main>
-      <Welcome message="Welcome to Barker" />
+      <router-view />
     </main>
     <Footer />
   </div>
@@ -11,13 +11,14 @@
 <script>
 
 import Header from './components/Header/Header.vue'
-import Welcome from './components/Welcome/Welcome.vue'
 import Footer from './components/Footer/Footer.vue'
+
+
 
 export default {
   name: 'app',
   components: {
-    Header, Welcome, Footer
+    Header, Footer
   }
 }
 </script>
